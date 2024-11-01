@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Poppins;
+  background: #faf4f2;
+  margin-left: 0px;
+}
+
+.i_am {
+  height: 60vh;
+  margin-top: 112px;
+}
+.i_am > .social {
+  margin-left: 187px;
+}
+.i_am > .social > h1 {
+  width: 475px;
+  height: 125px;
+  color: #222;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.i_am > .social > p {
+  width: 509px;
+  height: 144px;
+  color: #222;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.i_am > img {
+  position: absolute;
+  top: 100px;
+  left: 890px;
+}
+.i_am > .social > .send_request {
+  width: 151px;
+  height: 55px;
+  border-radius: 10px;
+  background: #ff2950;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  margin-right: 30px;
+}
+.i_am > .social > button {
+  margin-top: 25px;
+}
+.i_am > .social > .download {
+  width: 153px;
+  height: 55px;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #ff9b70;
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.completed_projects {
+  margin-top: 125px;
+  margin-left: 150px;
+  width: 1140px;
+  height: 519px;
+  border-radius: 35px;
+  background: #ff7315;
+  display: flex;
+}
+.value_projects {
+  margin-top: 72px;
+  margin-bottom: 0;
+  color: #f9f9f9;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.completed-projects {
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: #f9f9f9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.help_message {
+  margin-top: 19px;
+  margin-bottom: 0;
+  color: #f9f9f9;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.intro_message {
+  margin-top: 19px;
+  margin-bottom: 0;
+  width: 570px;
+  color: #f9f9f9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.why_me {
+  margin-left: 555px;
+  margin-top: 125px;
+}
+.card_container {
+  display: flex;
+  margin-top: 100px;
+}
+.card_container > .card {
+  margin-left: 60px;
+
+  flex-wrap: wrap;
+}
+.card_container > .card > .skill_description {
+  width: 240px;
+  margin-top: 0px;
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.card_container > .card > .skill {
+  color: #222;
+  margin-left: 22px;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.card_container > .card > img {
+  margin-left: 95px;
+  margin-bottom: 40px;
+}
+.card_container > .card > .ellipse {
+  width: 98px;
+  height: 98px;
+  border-radius: 100px;
+  background-color: rgba(34, 34, 34, 0.1);
+  position: absolute;
+  top: 1485px;
+}
+.portfolio_text {
+  margin-left: 150px;
+  margin-top: 125px;
+
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+
+.cards_container {
+  display: grid;
+  height: 620px;
+  grid-template-columns: repeat(3, 334px);
+  grid-template-rows: repeat(3, 325px);
+  margin-left: 234px;
+}
+
+.clients_worldwide {
+  height: 643px;
+  width: 100vw;
+  background-color: #ff7315;
+  margin-left: 0;
+  margin-top: 125px;
+}
+
+.clients_worldwide > p {
+  color: #f9f9f9;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+
+  width: 609px;
+
+  padding-top: 48px;
+  margin: 0;
+  margin-left: 415px;
+}
+
+.clients_worldwide > .clients_block > .fellow_block {
+  width: 529px;
+  height: 179px;
+  border-radius: 30px;
+  background: #f9f9f9;
+
+  margin-top: 111px;
+  margin-left: 150px;
+}
+.clients_worldwide > .clients_block > .fellow_block > p {
+  width: 419px;
+  height: 108px;
+  margin: 0;
+  padding-left: 55px;
+  padding-top: 24px;
+
+  color: #222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.clients_worldwide > .clients_block > .about_platform {
+  width: 529px;
+  height: 179px;
+  border-radius: 30px;
+  background: #f9f9f9;
+
+  margin-top: 111px;
+  margin-left: 150px;
+}
+.clients_worldwide > .clients_block > .about_platform > p {
+  width: 419px;
+  height: 108px;
+  margin: 0;
+  padding-left: 55px;
+  padding-top: 24px;
+
+  color: #222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.clients_worldwide > .clients_block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price_plans > p {
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  margin-left: 587px;
+  margin-top: 125px;
+  margin-bottom: 64;
+}
+.price_plans > .plans > .plan {
+  margin-top: 0;
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 20px 40px 0px rgba(255, 115, 21, 0.1);
+  margin-left: 67px;
+}
+.price_plans > .plans {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 83px;
+}
+
+.price_plans > .plans > .plan > .hat {
+  width: 335px;
+  height: 66px;
+
+  border-radius: 15px 15px 0px 0px;
+  background-color: #ff9b70;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.price_plans > .plans > .plan > .hat > p {
+  margin: 0;
+  text-align: center;
+  padding-top: 18px;
+
+  color: #f9f9f9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+.price {
+  margin: 0;
+  text-align: center;
+  padding-top: 36px;
+
+  color: #2b2b2b;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+.price > span {
+  color: #2b2b2b;
+  opacity: 0.5;
+  font-kerning: none;
+  font-feature-settings: "calt" off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+ul > li > p {
+  color: #222;
+  font-kerning: none;
+  font-feature-settings: "calt" off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+ul > .isOpacity {
+  opacity: 0.5;
+}
+
+.work_with_me {
+  width: 1110px;
+  height: 224px;
+
+  border-radius: 25px;
+  background-color: #ff7315;
+
+  margin-left: 165px;
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+}
+.work_with_me > p {
+  padding-left: 75px;
+  margin-bottom: 50px;
+
+  color: #f9f9f9;
+  height: 124px;
+  width: 343px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px; /* 172.222% */
+}
+.work_with_me > button {
+  margin-left: 333px;
+
+  width: 259px;
+  height: 70px;
+
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 0px 0.927px 1.924px 0px rgba(0, 0, 0, 0.01);
+
+  color: #222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.blog > p {
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+
+  margin-top: 125px;
+  margin-left: 150px;
+}
+.blog > .blocks {
+  display: flex;
+  align-items: center;
+}
+.blog > .blocks > .block_lorem {
+  margin-left: 20px;
+
+  width: 270px;
+  height: 364px;
+
+  border-radius: 15px;
+  background: #f9f9f9;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.07);
+}
+.blog > .blocks > .block_lorem > img {
+  border-radius: 15px;
+
+  padding: 14px;
+}
+.blog > .blocks > .block_lorem > p {
+  margin-left: 14px;
+}
+.blog > .blocks > .block_lorem > .headline {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.6%; /* 19.776px */
+  text-transform: capitalize;
+}
+.blog > .blocks > .block_lorem > .lorem {
+  width: 240px;
+
+  color: rgba(34, 34, 34, 0.5);
+  font-kerning: none;
+  font-feature-settings: "calt" off;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 200% */
+  text-transform: capitalize;
+}
+
+footer {
+  margin-top: 125px;
+
+  width: 100vw;
+  height: 170px;
+
+  background: #f1f1f1;
+}
+footer > p {
+  text-align: center;
+  padding-top: 64px;
+
+  color: #222;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
